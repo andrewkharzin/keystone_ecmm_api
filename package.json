@@ -1,0 +1,37 @@
+{
+  "name": "@keystone-next/example-ecommerce",
+  "version": "4.0.11",
+  "private": true,
+  "author": "Wes Bos & Jed Watson",
+  "license": "MIT",
+  "scripts": {
+    "dev": "keystone-next dev",
+    "start": "keystone-next start",
+    "build": "keystone-next build",
+    "seed-data": "keystone-next --seed-data"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.15.0",
+    "@babel/runtime": "^7.15.4",
+    "@keystone-next/auth": "^35.0.0",
+    "@keystone-next/cloudinary": "^10.0.0",
+    "@keystone-next/keystone": "^27.0.0",
+    "@types/nodemailer": "^6.4.4",
+    "dotenv": "^10.0.0",
+    "next": "^12.0.2",
+    "nodemailer": "^6.7.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "stripe": "^8.186.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  },
+  "engines": {
+    "node": "^12.20 || >= 14.13"
+  },
+  "repository": "https://github.com/keystonejs/keystone/tree/main/examples-staging/ecommerce"
+}
