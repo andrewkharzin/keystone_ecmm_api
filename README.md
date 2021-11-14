@@ -17,3 +17,4 @@ To run the project locally:
 - Open this folder in your terminal and run `yarn dev`
 
 If everything works 🤞 the GraphQL Server and Admin UI will start on [localhost:3000](http://localhost:3000)
+# keystonejs_ecommerce_api
